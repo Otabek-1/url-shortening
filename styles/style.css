@@ -356,7 +356,6 @@ a {
 
 .footer-list_cards {
     display: flex;
-
     column-gap: 116px;
     row-gap: 22px;
 }
@@ -372,16 +371,13 @@ a {
 
 .footer_list {
     margin-top: 72px;
-    color: #BFBFBF;
-    font-family: Poppins;
+    color: var(--light-grey);
     font-size: 15px;
     font-weight: 500;
     line-height: 32px;
     letter-spacing: -0.234px;
-
 }
 
-.footer_item {}
 
 .footer_link {
     color: #BFBFBF;
@@ -391,16 +387,14 @@ a {
 
 }
 
-.footer_resurs {}
-
-.footer_resurs-title {}
-
-.footer_company {}
-
-.footer_company-title {}
-
 .footer_link-icon {
     padding-top: 55px;
+    display: flex;
+    column-gap: 20px;
 }
 
-.footer-icon-img {}
+.icon-link{
+    width: 24px;
+    height: 24px;
+    color: white;
+}
